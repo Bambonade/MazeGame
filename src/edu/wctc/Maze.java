@@ -26,6 +26,22 @@ public class Maze {
         this.isFinished = true;
     }
 
+    public Room getCurrentRoom() {
+        return currentRoom;
+    }
+
+    public Player getPlayer() {
+        return player;
+    }
+
+    public boolean isFinished() {
+        return isFinished;
+    }
+
+    public FactoryCreate getJewelFactory() {
+        return jewelFactory;
+    }
+
     public String exitCurrentRoom() {
         if (currentRoom instanceof Exitable) {
             ((Exitable) currentRoom).exit(player);

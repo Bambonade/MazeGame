@@ -7,7 +7,7 @@ public enum JewelColors implements Jewel{
 
     @Override
     public String getJewelValue() {
-        return textValue + " Gem";
+        return textValue + " Jewel";
     }
 
 }

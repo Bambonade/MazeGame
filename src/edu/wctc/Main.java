@@ -63,7 +63,7 @@ public class Main {
                 System.out.println(game.lootCurrentRoom());
                 break;
             case 'a':
-
+                //if(game.getCurrentRoom() == Room.Factory)
                 break;
             default:
                 System.out.println("Invalid input");
